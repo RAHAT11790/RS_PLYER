@@ -5,20 +5,20 @@ from os import environ
 SESSION = environ.get('SESSION', 'rsanimelink')
 
 # Your Telegram Account Api Id And Api Hash
-API_ID = int(environ.get('API_ID', "25976192''))
-API_HASH = environ.get('API_HASH', "8ba23141980539b4896e5adbc4ffd2e2'')
+API_ID = int(environ.get('API_ID', "25976192"))
+API_HASH = environ.get('API_HASH', "8ba23141980539b4896e5adbc4ffd2e2")
 
 # Bot Token, This Is Main Bot
-BOT_TOKEN = environ.get('BOT_TOKEN', "8244184630:AAEZnsgIFmohZLlKxnbggjXHwNce6zOg0KU")
+BOT_TOKEN = environ.get('BOT_TOKEN')
 
 # Admin Telegram Account Id For Withdraw Notification Or Anything Else
-ADMIN = int(environ.get('ADMIN', "6621572366''))
+ADMIN = int(environ.get('ADMIN', "6621572366"))
 
 # Back Up Bot Token For Fetching Message When Floodwait Comes
-BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN', "8361715639:AAHqaP-a6J3nhGULjrYm8WD8WpcHvwQDcBQ")
+BACKUP_BOT_TOKEN = environ.get('BACKUP_BOT_TOKEN')
 
 # Log Channel, In This Channel Your All File Stored.
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1003525738568''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1003525738568"))
 
 # Mongodb Database For User Link Click Count Etc Data Store.
 MONGODB_URI = environ.get("MONGODB_URI", "mongodb+srv://RAHAT1132:RAHAT11a@rahat.txn4lkk.mongodb.net/?appName=Rahat")
